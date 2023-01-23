@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-    color: #7c7c7c;
+    color: #878787;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
     margin: 0;
+    margin-bottom: 0;
 }
 
 ul {
@@ -22,6 +23,7 @@ li {
     height: 19px;
     line-height: 1;
     list-style: none;
+    padding: 0;
 }
 
 .weather-app {
