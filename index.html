@@ -22,7 +22,9 @@
 
 <body>
     <div class="container">
+        <div class="weather-app-wrapper">
         <div class="weather-app">
+            <div class="overview">
             <form class="search-form" id="search-form">
                 <div class="row">
                     <div class="col-6">
@@ -42,17 +44,27 @@
             <h1 id="city"></h1>
             <ul>
                 <li id="date"></li>
-                <li id="description"></li>
+                <li>Clear
+
+                </li>
             </ul>
+
             <div class="row">
                 <div class="col-6">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Clear"/>
-                    <div class="clearfix">
-                        <div class="float-left">
-                            <span class="temperature" id="temperature"></span><span class="units">°C</span>
-                        </div>
+                    <div class="clearfix weather-temperature"></div>
+                <img 
+                    src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
+                    alt="clear"
+                    class="float-left"
+                    />
+                    <div class="float-left">
+                   <strong> 12</strong><span class="units">°C |<a href="#"°F></a>
+                    </span>
                     </div>
-                </div>
+                    </div>
+                    </div>
+                        
+                       
                 <div class="col-6">
                     <ul>
                         <li>Humidity: <span id="humidity"></span>%</li>
@@ -60,11 +72,13 @@
                     </ul>
                 </div>
             </div>
-            <small>
-                <a href="https://github.com/BontleMokose/Vanilla-weather-app" target="_blank"> Open-Source code</a> by Bontle Mokose
-            </small>
+            </div>
+        <small>
+            <a href="https://github.com/BontleMokose/Vanilla-weather-app" target="_blank"> Open-Source code</a>
+            by Bontle Mokose
+        </small>
         </div>
-        </div>
+    
     <script src="src/app.js"></script>
 </body>
 
