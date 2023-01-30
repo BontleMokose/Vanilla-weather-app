@@ -16,6 +16,10 @@ ul {
     padding: 0;
 }
 
+li::first-letter {
+    text-transform: capitalize;
+}
+
 li {
     color: #7c7c7c;
     margin: 0 0 10px;
